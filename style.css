@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.main {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 200px));
+    column-gap: 20px;
+    row-gap: 30px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid rgb(234, 145, 145);
+    background-position: calc(100% - 20px);
+}
+
+
